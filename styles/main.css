@@ -23,12 +23,27 @@ div
     height: 200px;
 }
 
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ol li {
+  width : 160px;
+  margin : 20px;
+}
+
+li img {
+  width : 100%;
+}
 
 img {
   width: 30%;
   display: block;
   margin-left: auto;
-  margin-right: auto }
+  margin-right: auto;
 }
 
 
