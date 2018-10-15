@@ -5,23 +5,54 @@ body {
 }
 
 section {
-  max-width: 45em;
+  max-width: 40em;
   margin: 0 auto;
-  padding: 4em;
+  padding: 5em;
 }
 
 header {
-  background-color: #DFDBC8;
+  background-image: linear-gradient(#11A1B0, #01374F);
   padding: 4em;
   position: relative;
 }
 
-div
-{
-    background-image: linear-gradient(blue, pink);
-    width: 200px;
-    height: 200px;
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : center;
 }
+
+#colors li {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#color-1 {
+ background-image: linear-gradient(#11A1B0, #8075DE);
+}
+
+#color-2 {
+ background-image: linear-gradient(#8075DE, #F94EBB);
+}
+
+#color-3 {
+ background-image: linear-gradient(#1411FE, #F94EBB);
+}
+
+#color-4 {
+ background-image: linear-gradient(#6866FF, #98B5EA);
+}
+
+#color-5 {
+ background-image: linear-gradient(#FC85B2, #FFDE47);
+}
+
+
 
 ol {
   list-style-type: none;
