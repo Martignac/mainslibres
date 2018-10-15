@@ -16,33 +16,34 @@ header {
   position: relative;
 }
 
-#colors li {
-  height : 80px;
-  width : 80px;
-  border-radius: 10px;
-  color : #fff;
+div
+{
+    background-image: linear-gradient(blue, pink);
+    width: 200px;
+    height: 200px;
+}
+
+ol {
+  list-style-type: none;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-#color-1 {
- background-color: white;
+ol li {
+  width : 160px;
+  margin : 20px;
 }
 
-#color-2 {
- background-color: red;
-}
-
-#color-3 {
- background-color: blue;
+li img {
+  width : 100%;
 }
 
 img {
   width: 30%;
   display: block;
   margin-left: auto;
-  margin-right: auto }
+  margin-right: auto;
 }
 
 
