@@ -7,7 +7,7 @@ body {
 section {
   max-width: 40em;
   margin: 0 auto;
-  padding: 5em;
+  padding: 1.5em;
 }
 
 header {
@@ -21,15 +21,16 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content : center;
+  margin: 0 auto;
 }
 
 #colors li {
   width: 100px;
   height: 100px;
   border-radius: 100px;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content : center;
 }
 
 #color-1 {
