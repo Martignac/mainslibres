@@ -85,3 +85,9 @@
 .menu-item-button:hover {
 	color: #fff;
 }
+section#bouton {
+	width: 20%
+}
+img#bouton2 {
+	width: 240%
+}
